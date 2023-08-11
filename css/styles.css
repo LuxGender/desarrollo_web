@@ -136,7 +136,91 @@
 }
 
 
+/*==========================
+    registro/iniciar sesión
+  ==========================
+*/
 
 
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 250px 0px;
 
+}
+
+.form{
+    position: relative;
+    width: 450px;
+    height: 600px;
+    background: #f7f7f7;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+label{
+    font-size: 2em;
+    justify-content: center;
+    display: flex;
+    margin: 60px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+
+
+input{
+    width: 60%;
+    height: 35px;
+    background: #ecebeb;
+    justify-content: center;
+    display: flex;
+    margin: 20px auto;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+
+button{
+    width: 55%;
+    height: 40px;
+    background-color: #8c84b8;
+    justify-content: center;
+    display: block;
+    margin: 20px auto;
+    font-weight: bold;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    transition: .2s ease-in;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #4E4484;
+}
+
+.signup{
+    width: 100%;
+    position: relative;
+    height: auto;
+}
+
+.login{
+	height: 460px;
+	background: #eee;
+	border-radius: 60% / 10%;
+	transition: .8s ease-in-out;
+}
+.login label{
+	color: #573b8a;
+	transform: scale(.6);
+}
 
