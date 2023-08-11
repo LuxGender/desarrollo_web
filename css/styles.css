@@ -6,6 +6,10 @@
   ===================================
 */
 
+*{
+    margin: 0;
+}
+
 .content{
     position: absolute;
     top: 0;
@@ -136,7 +140,84 @@
 }
 
 
+/* main */
+.main_producto{
+    height: calc(100vh - 161px);
+    background: #219B7E;
+}
 
 
+/* prod */
+.body_prod{
+    background: cyan;
+}
+.header_prod{
+    width: 100%;
+    height: 161px;
+    background: #ffc800;
+}
+.main_prod{
+    width: 100%;
+    height: calc(100vh - 161px);
+    background: #219B7E;
+}
+
+/* footer */
+.footer_prod{
+    width: 100%;
+    height: 150px;
+    background: #dedde2;
+}
+
+.footer_producto{
+    width: 100%;
+    height: 150px;
+}
 
 
+.title_footer{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.container_horario{
+    display: flex;
+    width: 100%;
+}
+
+.footer_flex{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.container_footer{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.label_text{
+    font-family: cursive;
+}
+
+.main_index{
+    height: calc(100vh);
+    width: 100%;
+}
+
+.main_about{
+    height: calc(100vh);
+    width: 100%;
+}
+
+.main_informacion{
+    height: calc(100vh);
+    width: 100%;
+}
+
+.main_choco_fruta{
+    height: calc(100vh);
+    width: 100%;
+}
