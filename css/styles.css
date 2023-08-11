@@ -12,10 +12,10 @@
 
 .content{
     position: absolute;
-    top: 0;
+    top: 192px;
     left: 0;
     width: 100%;
-    padding: 205px 5px;
+    /* padding: 205px 5px; */
     background: #219B7E;
 }
 
