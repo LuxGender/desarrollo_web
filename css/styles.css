@@ -221,3 +221,68 @@
     height: calc(100vh);
     width: 100%;
 }
+
+
+/* main_about */
+.content{
+  margin: auto;
+  padding: 0 10 0 ;
+  width: 100%;
+  background: #fff;
+}
+
+.seccion_2{
+    width: 100%;
+    margin: 40px;
+    padding: 1oopx 0;
+    
+}
+
+.seccion_2-title{
+    font-family: 'roboto', sans-serif;
+    font-size: 40px;
+    color: #4E4484;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.us{
+    display: flex;
+}
+
+
+.us-paragraph{
+    font-family: 'roboto', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    background: #fff;
+    padding: 0 30% 0;
+    
+}
+
+.paragraph-text{
+     margin: 5% 0;
+}
+
+.content-img{
+    display: flow-root;
+    align-content:end;
+    
+}
+
+.img_1{
+    width: 35opx;
+    height: 250px;
+    margin-right: 10px;
+    
+}
+
+.img_2{
+    width: 35opx;
+    height: 250px;
+    margin-left: 10px;
+    
+}
+
+
