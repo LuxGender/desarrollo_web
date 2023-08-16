@@ -174,7 +174,6 @@
     height: 150px;
 }
 
-
 .title_footer{
     display: flex;
     justify-content: center;
@@ -200,10 +199,11 @@
 
 .label_text{
     font-family: cursive;
+    cursor: pointer;
 }
 
 .main_index{
-    height: calc(100vh-161px);
+    height: calc(100vh);
     width: 100%;
 }
 
@@ -211,30 +211,6 @@
     height: calc(100vh);
     width: 100%;
 }
-
-.main_informacion{
-    height: calc(100vh);
-    width: 100%;
-}
-
-.main_choco_fruta{
-    height: calc(100vh);
-    width: 100%;
-}
-
-/* CONTENT INDEX */
-
-.section_mod_1 {
-    display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-    position: relative;
-    width: 100%;
-    height: 600px;
-    overflow: hidden; /* Para que la imagen no se desborde */
-}
-
-
 
 .img_flex {
     position: absolute;
@@ -285,3 +261,33 @@
 }
 
 
+.main_choco_fruta{
+    height: calc(100vh);
+    width: 100%;
+}
+
+
+/*estilos página información*/
+
+.main_informacion{
+    width: 100%;
+    height: calc(100vh - 161px);
+    background: #219B7E;
+}
+
+.section_info{
+    width: 25%;
+    height: 100%;
+    display: flex;
+}
+
+.informacion{
+    width: 100%;
+    display: flex;
+}
+
+.logo_whatsapp{
+    width: 12%;
+    height: auto;
+    display: flex;
+}

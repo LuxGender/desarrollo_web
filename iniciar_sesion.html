@@ -6,6 +6,7 @@
     <title>Registrar</title>
     <link rel="shortcut icon" href="images/logo.webp" />
     <link rel="stylesheet" href="css/styles.css">
+    <script src="js/hidden-nav.js"></script>
 </head>
 <body>
     <header id="navBar">
@@ -28,11 +29,29 @@
                 </nav>
             </div>
         </div>
-        
-    </header> 
-        
+    </header>
    </div>
 
+   <section class="container">
+    <div class="signup" id="chk">
+        <form action="" method="post" class="form">
+            <label for="username">Registrar</label>
+            <input type="text" name="username" id="username" required placeholder="nombre de usuario">
+            <input type="email" name="email" id="email" required placeholder="Correo electrónico">
+            <input type="password" id="password" name="password" required placeholder="contraseña">
+            <button type="submit">Registrarme</button>
+        </form>
+    </div>
+        <div class="login">
+            <form action="" method="post" class="form">
+                <label for="username">Inician sesión</label>
+                <input type="email" name="email" id="email" required placeholder="Correo electrónico">
+                <input type="password" id="password" name="password" required placeholder="contraseña">
+                <button type="submit">Iniciar sesión</button>
+            </form>
+        </div>
+   </section>
 
+   
 </body>
 </html>
