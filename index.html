@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Heladería Haydelie</title>
+    <link rel="shortcut icon" href="images/logo.webp"/>
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="shortcut icon" href="images/logo.webp" />
-
+    
 </head>
 <body>
     
@@ -23,7 +23,7 @@
                     <ul>
                         <li class="menu-selected"><b><a href="Index.html" class="text-menu-selected">Inicio</a></b></li>
                         <li><b><a href="about.html">Sobre Nosotros</a></b></li>
-                        <li><b><a href="producto.html">Productos</a></b></li>
+                        <li><b><a href="prod.html">Productos</a></b></li>
                         <li><b><a href="informacion.html">Información</a></b></li>
                         <li><b><a href="iniciar_sesion.html">Iniciar Sesión</a></b></li>                       
                     </ul>
@@ -31,19 +31,32 @@
             </div>
         </div>
         
-    </header> 
+    </header>
+    <main class="main_index"></main>
 
-    <seccion class="footer-content">
-        <footer>
-          <section class="horario">
-            <p class="content-footer"></p>
-            <p class="content-footer">8.00am - 20.00pm</p>
-          </section>
-          <section class="info">
-            <h1 class="pgr-footer">¿Quieres un helado?</h1>
-          </section>  
-        </footer>
-    </seccion>
-
+    <footer class="footer_prod">
+        <div class="title_footer">
+            <h2>¿Quieres un Helado?</h2>
+        </div>
+        <div class="container_horario">
+            <div class="footer_flex">
+                    <!-- <h4>Nuestro horario: </h4> -->
+                <div>
+                    <label class="label_text">Nuestro horario</label>
+                    <ul>
+                        <li>Lunes a viernes</li>
+                        <li>8:00 am - 20:00 pm</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container_footer">
+                <div>
+                    <label class="label_text">Contactanos a nuestro whatsApp</label>
+                    <a href="https://api.whatsapp.com/send?phone=0000000&text=Hola quiero comprar tu producto" target="_blank"> 
+                    <img src="images/whatsApp.png" alt="contacto" class="logo_whatsapp">
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
