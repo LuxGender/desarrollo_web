@@ -165,7 +165,7 @@
 /* footer */
 .footer_prod{
     width: 100%;
-    height: 150px;
+    height: 165px;
     background: #dedde2;
 }
 
@@ -203,7 +203,7 @@
 }
 
 .main_index{
-    height: calc(100vh);
+    height: calc(100vh-161px);
     width: 100%;
 }
 
@@ -290,4 +290,138 @@
     width: 12%;
     height: auto;
     display: flex;
+}
+
+
+/* MAIN */
+
+.container_flex{
+    width: 100%;
+}
+
+
+
+.class_principal{
+    width: 100%;
+    height: 650px;
+    background: white;
+}
+
+.class_principal2{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    background: #ffc800;
+}
+
+.class_principa3{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    background: white;
+}
+
+.class_principal4{
+    width: 100%;
+    height: 650px;
+    background: rgb(35, 147, 136);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_foto1{
+    width: 100%;
+    height: 650px;
+    display:flex;
+    opacity:0.6;
+}
+
+.principal2_card{
+    width: 380px;
+    height: 500px;
+    position: relative;
+    top:55px;
+    left: 135px;
+}
+
+.img_tipic{
+    width: 330px;
+    height: 500px;
+    border: 6px solid white;
+}
+
+
+.principal2_card2{
+    width: 400px;
+    height: 500px;
+    border: 1px solid ffc800;
+    background: white;
+    position: relative;
+    top: 100px;
+    right: 130px;
+}
+.title_heladeria{
+    text-align: center;
+    padding: 1rem;
+    font-family: monospace;
+    color:#4E4484;
+}
+
+.descr_heladeria{
+    text-align: center;
+    padding: 1rem;
+    font-family: monospace;
+}
+
+.btn_redirec{
+    display: flex;
+    justify-content: center;
+}
+
+.redirect_prod{
+    padding: 0.3rem;
+    border:1px solid #4E4484;
+    font-family:none;
+    border-radius: 5px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:12px;
+}
+
+.img_foto{
+    width: 270px;
+}
+ 
+.info_heladeria{
+    width: 650px;
+    height: 400px;
+    background:white;
+    border:1px solid rgb(35, 147, 136);
+    padding: 2.5rem;
+}
+
+.i_h_title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.flex_btn_redirect{
+    display: flex;
+    justify-content: center;
+}
+
+.info_redirect{
+
+    padding: 0.3rem;
+    border: 0.5px solid #4E4484;
+    font-family: none;
+    border-radius: 5px;
 }
