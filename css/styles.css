@@ -167,6 +167,7 @@
     width: 100%;
     height: 165px;
     background: #dedde2;
+    margin: 0;
 }
 
 .footer_producto{
@@ -203,14 +204,10 @@
 }
 
 .main_index{
-    height: calc(100vh-161px);
+    height: calc(100vh- 161px);
     width: 100%;
 }
 
-.main_about{
-    height: calc(100vh);
-    width: 100%;
-}
 
 .img_flex {
     position: absolute;
@@ -272,18 +269,9 @@
 .main_informacion{
     width: 100%;
     height: calc(100vh - 161px);
-    background: #219B7E;
-}
-
-.section_info{
-    width: 25%;
-    height: 100%;
     display: flex;
-}
-
-.informacion{
-    width: 100%;
-    display: flex;
+    justify-content: center;
+    padding:1rem;
 }
 
 .logo_whatsapp{
@@ -293,12 +281,35 @@
 }
 
 
+.container_info{
+    width: 100%;
+    height: 254px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding:1rem;
+    gap: 12px;
+
+}
+
+.info_direccion{
+    height: 220px;
+    background:#0dcaf0;
+}
+
+.text_info{
+    font-weight: bold;
+}
+
+.container_info2{
+    width: 100%;
+}
+
 /* MAIN */
 
 .container_flex{
     width: 100%;
 }
-
 
 
 .class_principal{
@@ -424,4 +435,67 @@
     border: 0.5px solid #4E4484;
     font-family: none;
     border-radius: 5px;
+}
+
+/* ABOUT */
+
+
+.body_about{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: rgb(121, 69, 119, 1);
+}
+
+.main_about{
+    min-height: calc(100vh - 161px);
+    width: 100%;
+}
+
+.main_principal_about{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 700px;
+}
+
+
+.footer_about{
+    width: 100%;
+    height: 165px;
+    background: #dedde2;
+    margin-top: auto;
+}
+
+
+.about_em{
+    background: white;
+    width:500px;
+    height: 340px;
+}
+
+.about_me{
+    width:600px;
+    /* height: 340px; */
+    border: 1px solid ffc800;
+    background: white;
+    position: relative;
+    top: 83px;
+    /* right: 130px; */
+
+}
+
+
+
+/* INFORMACION */
+.body_informacion{
+    min-height: 100vh;
+}
+
+.header_informacion{
+    width: 100%;
+    height: 161px;
+    background:#ffc800;
 }
