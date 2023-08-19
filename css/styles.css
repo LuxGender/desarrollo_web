@@ -270,20 +270,37 @@
 /*estilos página información*/
 
 .main_informacion{
-    width: 100%;
     height: calc(100vh - 161px);
-    background: #219B7E;
-}
-
-.section_info{
-    width: 25%;
-    height: 100%;
     display: flex;
+    justify-content: center;
+    padding: 220px;
+    background: #fce286;
+
 }
 
 .informacion{
     width: 100%;
     display: flex;
+}
+
+.section_info{
+    height: 2px;
+    margin: 2%;
+    background: #219B7E;
+   
+}
+
+
+#p_id{
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+#p_id2{
+    padding: 10px;
+    color: rgb(77, 75, 75);
+    font-weight: bold;
 }
 
 .logo_whatsapp{
@@ -425,3 +442,6 @@
     font-family: none;
     border-radius: 5px;
 }
+
+
+
